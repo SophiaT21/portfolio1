@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-html {
-    overflow-x: hidden;
-}
-
 body {
     overflow-x: hidden;
 }
@@ -23,17 +19,16 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    overflow: hidden;
 }
 
 h1 {
-    color: red;
+    color: #0023BF;
     font-family: "Bodoni Moda";
     font-weight: 400;
 
     position: absolute;
     top: 0;
-    left: 51.1%;
+    left: 51.1vw;
 
     margin: 0;
     line-height: 0.8;
