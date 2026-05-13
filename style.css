@@ -107,7 +107,6 @@ nav a:hover {
 .projects {
     position: relative;
     width: 100%;
-    min-height: 100vh;
 
     background-color: white;
     overflow: hidden;
@@ -122,11 +121,13 @@ nav a:hover {
     left: 46.1%;
     transform: translateX(-50%);
 
-    margin-top: 16px;
+    margin-top: 0px;
     line-height: 0.8;
 
-    font-size: 30vw;
+    font-size: 29vw;
     white-space: nowrap;
+
+    z-index: 1;
 }
 
 /* ---------------- INTRO BAS (SECTION 2) ---------------- */
@@ -152,22 +153,14 @@ nav a:hover {
     color: #990D35;
 }
 
-/* ---------------- SECTION 3 ---------------- */
+/* ---------------- IMAGE PREMIER PROJET ---------------- */
 
-.first-project {
-    position: relative;
-    z-index: 5;
-
+.first-project-img {
+    display: block;
     width: 100%;
-    min-height: 100vh;
-
-    background-image: url("fondportfolio2.1.png");
-    background-size: contain;
-    background-position: top center;
-    background-repeat: no-repeat;
-
-    background-color: white;
-    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    margin-top: -1.7vw;
 }
 
 /* ---------------- TABLETTE ---------------- */
