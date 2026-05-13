@@ -4,9 +4,8 @@
     box-sizing: border-box;
 }
 
-
 html {
-    overflow-x: hidden;  /* ← ici */
+    overflow-x: hidden;
 }
 
 body {
@@ -24,6 +23,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 h1 {
