@@ -157,6 +157,11 @@ nav a:hover {
 
 /* ---------------- IMAGE PREMIER PROJET ---------------- */
 
+.first-project-wrapper {
+    position: relative;
+    width: 100%;
+}
+
 .first-project-img {
     display: block;
     width: 100%;
@@ -165,20 +170,61 @@ nav a:hover {
     margin-top: -1.7vw;
 }
 
-/* ---------------- TITRE PREMIER PROJET ---------------- */
-
-.first-project-title {
-    color: white;
+.first-project-label {
+    position: absolute;
+    bottom: 0;
+    left: -4vw;
     font-family: "Bodoni Moda";
     font-weight: 400;
-    font-size: 8vw;
-    white-space: nowrap;
-
-    position: relative;
+    color: #990D35;
+    font-size: 14vw;
+    line-height: 0.74;
     z-index: 3;
-    margin-top: -8vw;
-    margin-left: 11vw;
-    line-height: 1;
+}
+
+.second-project-label {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Bodoni Moda";
+    font-weight: 400;
+    color: #990D35;
+    font-size: 14vw;
+    line-height: 0.74;
+    z-index: 3;
+}
+
+/* ---------------- SECTION 3 : blanche ---------------- */
+
+.next-section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.next-section-title {
+    position: absolute;
+    top: 0;
+    left: -3px;
+    font-family: "Inter";
+    font-weight: 200;
+    color: #0023BF;
+    font-size: 4vw;
+    line-height: 0.8;
+}
+
+.next-section-title-center {
+    position: absolute;
+    top: 0;
+    left: 61%;
+    transform: translateX(-50%);
+    font-family: "Inter";
+    font-weight: 200;
+    color: #0023BF;
+    font-size: 4vw;
+    line-height: 0.8;
 }
 
 /* ---------------- TABLETTE ---------------- */
