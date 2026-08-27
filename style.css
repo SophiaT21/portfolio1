@@ -185,7 +185,7 @@ nav a:hover {
 .second-project-label {
     position: absolute;
     bottom: 0;
-    left: 50%;
+    left: 56%;
     transform: translateX(-50%);
     font-family: "Bodoni Moda";
     font-weight: 400;
@@ -193,6 +193,19 @@ nav a:hover {
     font-size: 14vw;
     line-height: 0.74;
     z-index: 3;
+}
+
+/* ---------------- LIENS PROJETS ---------------- */
+
+.project-link {
+    text-decoration: none;
+    display: contents;
+}
+
+.project-link:hover span {
+    opacity: 0.6;
+    font-style: italic;
+    transition: opacity 0.3s ease;
 }
 
 /* ---------------- SECTION 3 : blanche ---------------- */
@@ -207,24 +220,78 @@ nav a:hover {
 .next-section-title {
     position: absolute;
     top: 0;
-    left: -3px;
+    left: -5px;
     font-family: "Inter";
     font-weight: 200;
     color: #0023BF;
     font-size: 4vw;
     line-height: 0.8;
+    white-space: nowrap;
 }
 
-.next-section-title-center {
+.third-project-label {
     position: absolute;
-    top: 0;
-    left: 61%;
+    top: 10vw;
+    left: 28%;
+    font-family: "Bodoni Moda";
+    font-weight: 400;
+    color: #990D35;
+    font-size: 14vw;
+    line-height: 0.74;
+    z-index: 3;
+    white-space: nowrap;
+}
+
+.third-project-subtitle {
+    position: absolute;
+    top: 20.4vw;
+    left: 24%;
+    font-family: "Inter";
+    font-weight: 200;
+    color: #0023BF;
+    font-size: 4vw;
+    line-height: 0.8;
+    white-space: nowrap;
+}
+
+.threejs-subtitle {
+    position: absolute;
+    top: 20.4vw;
+    left: 93%;
     transform: translateX(-50%);
     font-family: "Inter";
     font-weight: 200;
     color: #0023BF;
     font-size: 4vw;
     line-height: 0.8;
+    white-space: nowrap;
+}
+
+.fourth-project-label {
+    position: absolute;
+    top: 10vw;
+    left: 93.7%;
+    transform: translateX(-50%);
+    font-family: "Bodoni Moda";
+    font-weight: 400;
+    color: #990D35;
+    font-size: 14vw;
+    line-height: 0.74;
+    z-index: 3;
+    white-space: nowrap;
+}
+
+.next-section-title-center {
+    position: absolute;
+    top: 0;
+    left: 67%;
+    transform: translateX(-50%);
+    font-family: "Inter";
+    font-weight: 200;
+    color: #0023BF;
+    font-size: 4vw;
+    line-height: 0.8;
+    white-space: nowrap;
 }
 
 /* ---------------- TABLETTE ---------------- */
