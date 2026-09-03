@@ -160,6 +160,7 @@ nav a:hover {
 .first-project-wrapper {
     position: relative;
     width: 100%;
+    padding-bottom: 6.5vw;
 }
 
 .first-project-img {
@@ -168,18 +169,26 @@ nav a:hover {
     position: relative;
     z-index: 2;
     margin-top: -1.7vw;
+    transform: rotate(180deg);
 }
 
 .first-project-label {
     position: absolute;
     bottom: 0;
-    left: -4vw;
+    left: -7vw;
+    width: 2ch;
+    text-align: right;
     font-family: "Bodoni Moda";
     font-weight: 400;
-    color: #990D35;
-    font-size: 14vw;
-    line-height: 0.74;
+    font-size: 13vw;
+    line-height: 1;
     z-index: 3;
+
+    background: linear-gradient(to bottom, #ffffff 50%, #990D35 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 .second-project-label {
@@ -190,9 +199,45 @@ nav a:hover {
     font-family: "Bodoni Moda";
     font-weight: 400;
     color: #990D35;
-    font-size: 14vw;
+    font-size: 13vw;
     line-height: 0.74;
     z-index: 3;
+}
+
+.label-01 {
+    position: absolute;
+    left: -7vw;
+    width: 2ch;
+    text-align: right;
+    bottom: 12.3vw;
+    font-family: "Bodoni Moda";
+    font-weight: 400;
+    font-size: 13vw;
+    line-height: 1;
+    z-index: 3;
+    color: #ffffff;
+}
+
+.label-03,
+.label-04 {
+    position: absolute;
+    left: -7vw;
+    width: 2ch;
+    text-align: right;
+    font-family: "Bodoni Moda";
+    font-weight: 400;
+    font-size: 13vw;
+    line-height: 1;
+    z-index: 3;
+    color: #990D35;
+}
+
+.label-03 {
+    top: 0;
+}
+
+.label-04 {
+    top: 12.3vw;
 }
 
 /* ---------------- LIENS PROJETS ---------------- */
@@ -236,7 +281,7 @@ nav a:hover {
     font-family: "Bodoni Moda";
     font-weight: 400;
     color: #990D35;
-    font-size: 14vw;
+    font-size: 13vw;
     line-height: 0.74;
     z-index: 3;
     white-space: nowrap;
@@ -275,7 +320,7 @@ nav a:hover {
     font-family: "Bodoni Moda";
     font-weight: 400;
     color: #990D35;
-    font-size: 14vw;
+    font-size: 13vw;
     line-height: 0.74;
     z-index: 3;
     white-space: nowrap;
