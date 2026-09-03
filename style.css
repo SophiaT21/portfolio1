@@ -21,7 +21,7 @@ body {
 
     background-image: url("fondportfolio.png");
     background-size: cover;
-    background-position: left bottom;
+    background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
 }
@@ -166,9 +166,6 @@ nav a:hover {
 .first-project-img {
     display: block;
     width: 100%;
-    min-height: 35vh;
-    object-fit: cover;
-    object-position: right top;
     position: relative;
     z-index: 2;
     margin-top: -1.7vw;
@@ -413,49 +410,6 @@ nav a:hover {
     }
 }
 
-@media (max-width: 600px) {
-
-    .first-project-wrapper {
-        padding-bottom: 12.5vw;
-    }
-
-    .first-project-label,
-    .label-01,
-    .label-03,
-    .label-04 {
-        left: -13.5vw;
-        font-size: 25vw;
-    }
-
-    .label-01 {
-        bottom: 23.7vw;
-    }
-
-    .label-04 {
-        top: 23.7vw;
-    }
-
-    .h-line-01 {
-        bottom: 41.1vw;
-    }
-
-    .h-line-02 {
-        bottom: 17.4vw;
-    }
-
-    .h-line-03 {
-        top: 6.3vw;
-    }
-
-    .h-line-04 {
-        top: 30vw;
-    }
-
-    .h-line-05 {
-        top: 53.7vw;
-    }
-}
-
 /* ---------------- MOBILE ---------------- */
 
 @media (max-width: 480px) {
@@ -523,4 +477,40 @@ nav a:hover {
         font-size: clamp(1rem, 3vw + 1.5rem, 1.4rem);
         line-height: 1.4;
     }
+}
+
+.contact {
+    position: relative;
+    width: 100%;
+
+    background-color: white;
+    overflow: hidden;
+}
+
+.contact h2 {
+    color: #0023BF;
+    font-family: "Bodoni Moda";
+    font-weight: 400;
+
+    position: relative;
+    left: 46.1%;
+    transform: translateX(-50%);
+
+    margin-top: 0px;
+    line-height: 0.8;
+
+    font-size: 29vw;
+    white-space: nowrap;
+
+    z-index: 1;
+}
+
+/* ---------------- SECTION 4 : fond bas de page ---------------- */
+
+.fond3-img {
+    display: block;
+    width: 100%;
+    position: relative;
+    margin-top: -3vw;
+    z-index: 2;
 }
