@@ -21,7 +21,7 @@ body {
 
     background-image: url("fondportfolio.png");
     background-size: cover;
-    background-position: center;
+    background-position: left bottom;
     background-repeat: no-repeat;
     overflow: hidden;
 }
@@ -166,6 +166,9 @@ nav a:hover {
 .first-project-img {
     display: block;
     width: 100%;
+    min-height: 35vh;
+    object-fit: cover;
+    object-position: right top;
     position: relative;
     z-index: 2;
     margin-top: -1.7vw;
@@ -246,7 +249,7 @@ nav a:hover {
     position: absolute;
     left: 0;
     width: 100%;
-    height: 2px;
+    height: clamp(1px, 0.3vw, 2px);
     z-index: 4;
 }
 
@@ -296,7 +299,7 @@ nav a:hover {
 .next-section {
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 40vw;
     background-color: white;
 }
 
@@ -410,6 +413,53 @@ nav a:hover {
     }
 }
 
+@media (max-width: 600px) {
+
+    .first-project-wrapper {
+        padding-bottom: 12.5vw;
+    }
+
+    .first-project-label,
+    .label-01,
+    .label-03,
+    .label-04 {
+        left: -13.5vw;
+        font-size: 25vw;
+    }
+
+    .label-01 {
+        bottom: 23.7vw;
+    }
+
+    .label-04 {
+        top: 23.7vw;
+    }
+
+    .h-line-01 {
+        bottom: 41.1vw;
+    }
+
+    .h-line-02 {
+        bottom: 17.4vw;
+    }
+
+    .h-line-03 {
+        top: 6.3vw;
+    }
+
+    .h-line-04 {
+        top: 30vw;
+    }
+
+    .h-line-05 {
+        top: 53.7vw;
+    }
+
+    .next-section {
+        min-height: 70vw;
+    }
+}
+
 /* ---------------- MOBILE ---------------- */
 
 @media (max-width: 480px) {
@@ -510,6 +560,9 @@ nav a:hover {
 .fond3-img {
     display: block;
     width: 100%;
+    min-height: 20vh;
+    object-fit: cover;
+    object-position: left bottom;
     position: relative;
     margin-top: -3vw;
     z-index: 2;
