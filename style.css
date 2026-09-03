@@ -160,7 +160,7 @@ nav a:hover {
 .first-project-wrapper {
     position: relative;
     width: 100%;
-    padding-bottom: 12.5vw;
+    padding-bottom: 6.5vw;
 }
 
 .first-project-img {
@@ -178,12 +178,12 @@ nav a:hover {
 .first-project-label {
     position: absolute;
     bottom: 0;
-    left: -13.5vw;
+    left: -7vw;
     width: 2ch;
     text-align: right;
     font-family: "Bodoni Moda";
     font-weight: 400;
-    font-size: 25vw;
+    font-size: 13vw;
     line-height: 1;
     z-index: 3;
 
@@ -202,20 +202,20 @@ nav a:hover {
     font-family: "Bodoni Moda";
     font-weight: 400;
     color: #990D35;
-    font-size: 25vw;
+    font-size: 13vw;
     line-height: 0.74;
     z-index: 3;
 }
 
 .label-01 {
     position: absolute;
-    left: -13.5vw;
+    left: -7vw;
     width: 2ch;
     text-align: right;
-    bottom: 23.7vw;
+    bottom: 12.3vw;
     font-family: "Bodoni Moda";
     font-weight: 400;
-    font-size: 25vw;
+    font-size: 13vw;
     line-height: 1;
     z-index: 3;
     color: #ffffff;
@@ -224,12 +224,12 @@ nav a:hover {
 .label-03,
 .label-04 {
     position: absolute;
-    left: -13.5vw;
+    left: -7vw;
     width: 2ch;
     text-align: right;
     font-family: "Bodoni Moda";
     font-weight: 400;
-    font-size: 25vw;
+    font-size: 13vw;
     line-height: 1;
     z-index: 3;
     color: #990D35;
@@ -240,7 +240,45 @@ nav a:hover {
 }
 
 .label-04 {
-    top: 23.7vw;
+    top: 12.3vw;
+}
+
+/* ---------------- LIGNES CONTACT ---------------- */
+
+.h-line {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    z-index: 4;
+}
+
+.h-line-white {
+    background-color: #ffffff;
+}
+
+.h-line-bordeaux {
+    background-color: #990D35;
+}
+
+.h-line-01 {
+    bottom: 21.3vw;
+}
+
+.h-line-02 {
+    bottom: 9vw;
+}
+
+.h-line-03 {
+    top: 3.3vw;
+}
+
+.h-line-04 {
+    top: 15.6vw;
+}
+
+.h-line-05 {
+    top: 27.9vw;
 }
 
 /* ---------------- LIENS PROJETS ---------------- */
@@ -284,7 +322,7 @@ nav a:hover {
     font-family: "Bodoni Moda";
     font-weight: 400;
     color: #990D35;
-    font-size: 25vw;
+    font-size: 13vw;
     line-height: 0.74;
     z-index: 3;
     white-space: nowrap;
@@ -323,7 +361,7 @@ nav a:hover {
     font-family: "Bodoni Moda";
     font-weight: 400;
     color: #990D35;
-    font-size: 25vw;
+    font-size: 13vw;
     line-height: 0.74;
     z-index: 3;
     white-space: nowrap;
@@ -372,6 +410,49 @@ nav a:hover {
 
     .intro-bottom p {
         font-size: clamp(1rem, 2.5vw + 1.5vh, 1.5rem);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .first-project-wrapper {
+        padding-bottom: 12.5vw;
+    }
+
+    .first-project-label,
+    .label-01,
+    .label-03,
+    .label-04 {
+        left: -13.5vw;
+        font-size: 25vw;
+    }
+
+    .label-01 {
+        bottom: 23.7vw;
+    }
+
+    .label-04 {
+        top: 23.7vw;
+    }
+
+    .h-line-01 {
+        bottom: 41.1vw;
+    }
+
+    .h-line-02 {
+        bottom: 17.4vw;
+    }
+
+    .h-line-03 {
+        top: 6.3vw;
+    }
+
+    .h-line-04 {
+        top: 30vw;
+    }
+
+    .h-line-05 {
+        top: 53.7vw;
     }
 }
 
