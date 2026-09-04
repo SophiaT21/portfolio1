@@ -765,7 +765,7 @@ body:has(.link-02:hover) .h-line-02 {
     filter: brightness(0) invert(1);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 
     .contact-link span {
         display: none;
