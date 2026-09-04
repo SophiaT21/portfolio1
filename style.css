@@ -43,6 +43,7 @@ h1 {
 
     transform: translate(-50%, -30%);
     z-index: 1;
+    cursor: default;
 }
 
 .title-line {
@@ -133,6 +134,7 @@ nav a:hover {
     white-space: nowrap;
 
     z-index: 1;
+    cursor: default;
 }
 
 /* ---------------- INTRO BAS (SECTION 2) ---------------- */
@@ -702,6 +704,7 @@ body:has(.link-02:hover) .h-line-02 {
     white-space: nowrap;
 
     z-index: 1;
+    cursor: default;
 }
 
 /* ---------------- SECTION 4 : fond bas de page ---------------- */
